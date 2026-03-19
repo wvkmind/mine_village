@@ -1,0 +1,99 @@
+{
+  "npcs": [
+    {
+      "id": "elder_chen", "name": "陈长老", "role": "老者",
+      "x": 14, "y": 18,
+      "personality": {"sociability": 80, "diligence": 50, "courage": 40, "generosity": 70, "honesty": 85, "curiosity": 45, "temper": 25, "ambition": 20},
+      "skills": {"social": 60},
+      "memories": ["我在这个村子生活了三十年，看着它从几十人发展到现在", "上一任老者把协调工作交给了我"]
+    },
+    {
+      "id": "miner_wang", "name": "王铁柱", "role": "矿工",
+      "x": 43, "y": 8,
+      "personality": {"sociability": 35, "diligence": 85, "courage": 70, "generosity": 40, "honesty": 60, "curiosity": 30, "temper": 55, "ambition": 45},
+      "skills": {"mining": 70},
+      "memories": ["我从十六岁就开始采矿了", "上个月矿道B发生过一次小塌方"]
+    },
+    {
+      "id": "miner_liu", "name": "刘大力", "role": "矿工",
+      "x": 43, "y": 16,
+      "personality": {"sociability": 55, "diligence": 70, "courage": 60, "generosity": 50, "honesty": 45, "curiosity": 40, "temper": 65, "ambition": 60},
+      "skills": {"mining": 50},
+      "memories": ["我和王铁柱是同一批进矿的", "我一直觉得自己应该当工头"]
+    },
+    {
+      "id": "miner_zhao", "name": "赵小山", "role": "矿工",
+      "x": 43, "y": 28,
+      "personality": {"sociability": 60, "diligence": 55, "courage": 45, "generosity": 65, "honesty": 70, "curiosity": 55, "temper": 30, "ambition": 25},
+      "skills": {"mining": 35},
+      "memories": ["我是去年才从主城来的新人", "刘大力教了我很多采矿技巧"]
+    },
+    {
+      "id": "cook_sun", "name": "孙大嫂", "role": "厨师",
+      "x": 15, "y": 10,
+      "personality": {"sociability": 75, "diligence": 80, "courage": 30, "generosity": 85, "honesty": 65, "curiosity": 35, "temper": 40, "ambition": 15},
+      "skills": {"cooking": 75},
+      "memories": ["食堂是我的地盘，每天要喂饱一百多张嘴", "我丈夫王铁柱在矿上工作"]
+    },
+    {
+      "id": "doctor_li", "name": "李医生", "role": "医生",
+      "x": 20, "y": 16,
+      "personality": {"sociability": 50, "diligence": 75, "courage": 55, "generosity": 70, "honesty": 80, "curiosity": 65, "temper": 20, "ambition": 40},
+      "skills": {"medical": 80},
+      "memories": ["我是村里唯一的医生，压力很大", "地下病越来越多，我需要更多地表生物材料"]
+    },
+    {
+      "id": "repair_zhang", "name": "张师傅", "role": "维修工",
+      "x": 52, "y": 12,
+      "personality": {"sociability": 40, "diligence": 90, "courage": 50, "generosity": 55, "honesty": 75, "curiosity": 70, "temper": 35, "ambition": 30},
+      "skills": {"repair": 85},
+      "memories": ["设备是村子的命脉，坏了就没矿可采", "最近矿道A的主泵有异响，得盯着"]
+    },
+    {
+      "id": "patrol_ma", "name": "马巡", "role": "巡逻者",
+      "x": 14, "y": 3,
+      "personality": {"sociability": 45, "diligence": 65, "courage": 85, "generosity": 35, "honesty": 55, "curiosity": 75, "temper": 50, "ambition": 55},
+      "skills": {"foraging": 45, "combat": 40},
+      "memories": ["我负责地表通道的安全", "上周在出口附近看到了一群地表生物的痕迹"]
+    },
+    {
+      "id": "patrol_he", "name": "何勇", "role": "巡逻者",
+      "x": 44, "y": 3,
+      "personality": {"sociability": 30, "diligence": 60, "courage": 90, "generosity": 25, "honesty": 50, "curiosity": 60, "temper": 70, "ambition": 65},
+      "skills": {"combat": 55, "foraging": 30},
+      "memories": ["我和马巡轮班巡逻", "我曾经在地表杀过一只大型生物"]
+    },
+    {
+      "id": "resident_fang", "name": "方小梅", "role": "",
+      "x": 4, "y": 6,
+      "personality": {"sociability": 85, "diligence": 45, "courage": 35, "generosity": 60, "honesty": 40, "curiosity": 80, "temper": 45, "ambition": 50},
+      "skills": {"social": 40},
+      "memories": ["我在物资分配点帮忙", "我知道村里很多人的秘密"]
+    },
+    {
+      "id": "resident_zhou", "name": "周大壮", "role": "",
+      "x": 4, "y": 11,
+      "personality": {"sociability": 50, "diligence": 70, "courage": 55, "generosity": 45, "honesty": 60, "curiosity": 30, "temper": 40, "ambition": 35},
+      "skills": {},
+      "memories": ["我负责仓库的搬运工作", "车队来的时候是我最忙的时候"]
+    },
+    {
+      "id": "resident_lin", "name": "林老师", "role": "",
+      "x": 15, "y": 26,
+      "personality": {"sociability": 65, "diligence": 60, "courage": 30, "generosity": 75, "honesty": 85, "curiosity": 90, "temper": 15, "ambition": 20},
+      "skills": {"social": 35},
+      "memories": ["我教村里的孩子们读书识字", "我一直在记录村子的历史"]
+    }
+  ],
+  "relationships": [
+    {"a": "miner_wang", "b": "cook_sun", "value": 85, "type": "spouse"},
+    {"a": "miner_wang", "b": "miner_liu", "value": 25, "type": "acquaintance"},
+    {"a": "miner_liu", "b": "miner_zhao", "value": 35, "type": "friend"},
+    {"a": "elder_chen", "b": "doctor_li", "value": 50, "type": "friend"},
+    {"a": "elder_chen", "b": "repair_zhang", "value": 45, "type": "friend"},
+    {"a": "patrol_ma", "b": "patrol_he", "value": 20, "type": "acquaintance"},
+    {"a": "resident_fang", "b": "cook_sun", "value": 40, "type": "friend"},
+    {"a": "miner_liu", "b": "patrol_he", "value": -15, "type": "rival"},
+    {"a": "resident_zhou", "b": "repair_zhang", "value": 30, "type": "acquaintance"}
+  ]
+}

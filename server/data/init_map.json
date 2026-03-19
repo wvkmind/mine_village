@@ -1,0 +1,121 @@
+{
+  "width": 60,
+  "height": 40,
+  "rooms": [
+    {"id": "plaza", "name": "中间广场", "type": "plaza", "x": 11, "y": 15, "w": 6, "h": 6, "description": "生活圈中心，地下最大的开放空间"},
+
+    {"id": "res_01", "name": "住宅1", "type": "residential", "x": 3, "y": 5, "w": 3, "h": 3},
+    {"id": "res_02", "name": "住宅2", "type": "residential", "x": 3, "y": 10, "w": 3, "h": 3},
+    {"id": "res_03", "name": "住宅3", "type": "residential", "x": 3, "y": 15, "w": 3, "h": 3},
+    {"id": "res_04", "name": "住宅4", "type": "residential", "x": 3, "y": 20, "w": 3, "h": 3},
+    {"id": "res_05", "name": "住宅5", "type": "residential", "x": 3, "y": 25, "w": 3, "h": 3},
+    {"id": "res_06", "name": "住宅6", "type": "residential", "x": 3, "y": 30, "w": 3, "h": 3},
+    {"id": "res_07", "name": "住宅7", "type": "residential", "x": 8, "y": 5, "w": 3, "h": 3},
+    {"id": "res_08", "name": "住宅8", "type": "residential", "x": 8, "y": 10, "w": 3, "h": 3},
+    {"id": "res_09", "name": "住宅9", "type": "residential", "x": 8, "y": 25, "w": 3, "h": 3},
+    {"id": "res_10", "name": "住宅10", "type": "residential", "x": 8, "y": 30, "w": 3, "h": 3},
+    {"id": "res_11", "name": "住宅11", "type": "residential", "x": 18, "y": 5, "w": 3, "h": 3},
+    {"id": "res_12", "name": "住宅12", "type": "residential", "x": 18, "y": 10, "w": 3, "h": 3},
+
+    {"id": "canteen", "name": "食堂", "type": "canteen", "x": 13, "y": 8, "w": 5, "h": 4, "description": "公共就餐区"},
+    {"id": "school", "name": "学校", "type": "school", "x": 13, "y": 24, "w": 5, "h": 4, "description": "教学区"},
+    {"id": "clinic", "name": "诊所", "type": "medical", "x": 18, "y": 15, "w": 4, "h": 3, "description": "村医诊所"},
+    {"id": "shop", "name": "商店", "type": "shop", "x": 18, "y": 20, "w": 4, "h": 3, "description": "物资分配点"},
+
+    {"id": "water", "name": "水处理", "type": "utility", "x": 8, "y": 34, "w": 3, "h": 3, "description": "水循环回收系统"},
+    {"id": "temp_ctrl", "name": "温控", "type": "utility", "x": 15, "y": 34, "w": 3, "h": 3, "description": "地下温度调节"},
+
+    {"id": "warehouse", "name": "仓库", "type": "storage", "x": 26, "y": 13, "w": 6, "h": 10, "description": "物资枢纽，连接生活圈和工作圈"},
+
+    {"id": "factory_gate", "name": "厂区门口", "type": "workshop", "x": 35, "y": 16, "w": 3, "h": 4, "description": "进入工作圈的关口"},
+
+    {"id": "mine_a", "name": "矿道A", "type": "mine", "x": 41, "y": 6, "w": 6, "h": 5, "description": "主采矿区"},
+    {"id": "mine_b", "name": "矿道B", "type": "mine", "x": 41, "y": 14, "w": 6, "h": 5, "description": "副采矿区"},
+    {"id": "mine_c", "name": "矿道C", "type": "mine", "x": 41, "y": 26, "w": 6, "h": 5, "description": "深层矿道"},
+
+    {"id": "equip_room", "name": "设备房", "type": "workshop", "x": 50, "y": 10, "w": 4, "h": 4, "description": "重型设备维护"},
+    {"id": "tool_room", "name": "工具间", "type": "workshop", "x": 50, "y": 18, "w": 4, "h": 4, "description": "工具存放和小型维修"},
+    {"id": "rest_room", "name": "矿工休息室", "type": "rest", "x": 50, "y": 26, "w": 4, "h": 4, "description": "轮班矿工休息区"}
+  ],
+
+  "corridors": [
+    {
+      "id": "main_corridor",
+      "name": "主通道",
+      "width": 2,
+      "points": [[22, 17], [26, 17], [32, 17], [35, 17]]
+    },
+    {
+      "id": "sec_corridor_n",
+      "name": "北次通道",
+      "width": 1,
+      "points": [[22, 8], [35, 8]]
+    },
+    {
+      "id": "sec_corridor_s",
+      "name": "南次通道",
+      "width": 1,
+      "points": [[22, 28], [35, 28]]
+    },
+
+    {"id": "living_n", "name": "生活区北通道", "width": 1, "points": [[6, 7], [22, 7]]},
+    {"id": "living_mid_n", "name": "生活区中北通道", "width": 1, "points": [[6, 12], [22, 12]]},
+    {"id": "living_w", "name": "生活区西通道", "width": 1, "points": [[6, 7], [6, 33]]},
+    {"id": "living_mid_e", "name": "生活区中东通道", "width": 1, "points": [[22, 7], [22, 33]]},
+    {"id": "living_mid_s", "name": "生活区中南通道", "width": 1, "points": [[6, 28], [22, 28]]},
+    {"id": "living_s", "name": "生活区南通道", "width": 1, "points": [[6, 33], [22, 33]]},
+
+    {"id": "plaza_n", "name": "广场北连接", "width": 1, "points": [[14, 12], [14, 15]]},
+    {"id": "plaza_s", "name": "广场南连接", "width": 1, "points": [[14, 21], [14, 24]]},
+    {"id": "plaza_e", "name": "广场东连接", "width": 1, "points": [[17, 18], [22, 18]]},
+    {"id": "plaza_w", "name": "广场西连接", "width": 1, "points": [[6, 18], [11, 18]]},
+
+    {"id": "work_n", "name": "工作区北通道", "width": 1, "points": [[38, 8], [54, 8]]},
+    {"id": "work_w", "name": "工作区西通道", "width": 1, "points": [[38, 8], [38, 30]]},
+    {"id": "work_e", "name": "工作区东通道", "width": 1, "points": [[54, 8], [54, 30]]},
+    {"id": "work_mid", "name": "工作区中通道", "width": 1, "points": [[38, 20], [54, 20]]},
+    {"id": "work_s", "name": "工作区南通道", "width": 1, "points": [[38, 30], [54, 30]]},
+
+    {"id": "mine_a_conn", "name": "矿道A连接", "width": 1, "points": [[38, 8], [41, 8]]},
+    {"id": "mine_b_conn", "name": "矿道B连接", "width": 1, "points": [[38, 16], [41, 16]]},
+    {"id": "mine_c_conn", "name": "矿道C连接", "width": 1, "points": [[38, 28], [41, 28]]},
+
+    {"id": "equip_conn", "name": "设备房连接", "width": 1, "points": [[47, 12], [50, 12]]},
+    {"id": "tool_conn", "name": "工具间连接", "width": 1, "points": [[47, 20], [50, 20]]},
+    {"id": "rest_conn", "name": "休息室连接", "width": 1, "points": [[47, 28], [50, 28]]}
+  ],
+
+  "doors": [
+    {"x": 5, "y": 7, "note": "住宅1"},
+    {"x": 5, "y": 12, "note": "住宅2"},
+    {"x": 5, "y": 17, "note": "住宅3"},
+    {"x": 5, "y": 22, "note": "住宅4"},
+    {"x": 5, "y": 27, "note": "住宅5"},
+    {"x": 5, "y": 32, "note": "住宅6"},
+    {"x": 10, "y": 7, "note": "住宅7"},
+    {"x": 10, "y": 12, "note": "住宅8"},
+    {"x": 10, "y": 27, "note": "住宅9"},
+    {"x": 10, "y": 32, "note": "住宅10"},
+    {"x": 19, "y": 7, "note": "住宅11"},
+    {"x": 19, "y": 12, "note": "住宅12"},
+    {"x": 15, "y": 12, "note": "食堂"},
+    {"x": 15, "y": 24, "note": "学校"},
+    {"x": 18, "y": 17, "note": "诊所"},
+    {"x": 18, "y": 22, "note": "商店"},
+    {"x": 26, "y": 18, "note": "仓库西"},
+    {"x": 31, "y": 18, "note": "仓库东"},
+    {"x": 35, "y": 18, "note": "厂区门口"},
+    {"x": 41, "y": 8, "note": "矿道A"},
+    {"x": 41, "y": 16, "note": "矿道B"},
+    {"x": 41, "y": 28, "note": "矿道C"},
+    {"x": 50, "y": 12, "note": "设备房"},
+    {"x": 50, "y": 20, "note": "工具间"},
+    {"x": 50, "y": 28, "note": "休息室"}
+  ],
+
+  "exits": [
+    {"x": 14, "y": 2, "id": "exit_daily", "name": "日常出入口"},
+    {"x": 29, "y": 2, "id": "exit_cargo", "name": "货运出入口"},
+    {"x": 44, "y": 2, "id": "exit_mine", "name": "矿区作业口"}
+  ]
+}

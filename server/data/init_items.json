@@ -1,0 +1,25 @@
+{
+  "items": [
+    {"id": "ration", "name": "口粮", "type": "food", "weight": 0.5, "durability": 0, "effects": {"hunger": 20}, "description": "标准口粮包"},
+    {"id": "canned_food", "name": "罐头", "type": "food", "weight": 0.8, "durability": 0, "effects": {"hunger": 30}, "description": "保质期长的罐头食品"},
+    {"id": "cooked_meal", "name": "热餐", "type": "food", "weight": 0.6, "durability": 0, "effects": {"hunger": 40, "energy": 5}, "description": "食堂做的热饭"},
+    {"id": "water_bottle", "name": "水壶", "type": "food", "weight": 1.0, "durability": 5, "effects": {"hunger": 5, "energy": 3}, "description": "可重复使用的水壶"},
+
+    {"id": "pickaxe", "name": "矿镐", "type": "tool", "weight": 3.0, "durability": 50, "effects": {}, "description": "采矿用镐"},
+    {"id": "wrench", "name": "扳手", "type": "tool", "weight": 1.5, "durability": 80, "effects": {}, "description": "维修用扳手"},
+    {"id": "torch", "name": "火把", "type": "tool", "weight": 0.5, "durability": 20, "effects": {}, "description": "照明用"},
+    {"id": "cooking_kit", "name": "炊具", "type": "tool", "weight": 2.0, "durability": 100, "effects": {}, "description": "烹饪工具套装"},
+
+    {"id": "ore", "name": "矿石", "type": "material", "weight": 5.0, "durability": -1, "effects": {}, "description": "未加工的液态能源矿石"},
+    {"id": "metal", "name": "金属", "type": "material", "weight": 3.0, "durability": -1, "effects": {}, "description": "加工后的金属材料"},
+    {"id": "stone", "name": "石材", "type": "material", "weight": 4.0, "durability": -1, "effects": {}, "description": "建筑用石材"},
+    {"id": "wood", "name": "木材", "type": "material", "weight": 2.0, "durability": -1, "effects": {}, "description": "稀缺的木材"},
+    {"id": "bio_material", "name": "生物材料", "type": "material", "weight": 0.3, "durability": -1, "effects": {}, "description": "地表生物提取的药用材料"},
+
+    {"id": "basic_med", "name": "基础药品", "type": "medicine", "weight": 0.2, "durability": 0, "effects": {"health": 20}, "description": "常规医疗用品"},
+    {"id": "bio_remedy", "name": "生物药剂", "type": "medicine", "weight": 0.3, "durability": 0, "effects": {"health": 40}, "description": "用地表生物材料制成，可治疗地下疾病"},
+
+    {"id": "knife", "name": "小刀", "type": "weapon", "weight": 0.5, "durability": 30, "effects": {"attack": 3}, "description": "简易武器"},
+    {"id": "metal_club", "name": "金属棍", "type": "weapon", "weight": 2.5, "durability": 60, "effects": {"attack": 6}, "description": "金属制武器"}
+  ]
+}
