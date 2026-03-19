@@ -19,7 +19,7 @@ app = FastAPI(title="Mine Village")
 _world: WorldState | None = None
 _connections: list[WebSocket] = []
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 TICKS_PER_DAY = 144
 
 
